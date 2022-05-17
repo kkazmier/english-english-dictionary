@@ -1,0 +1,76 @@
+[
+  {
+    "word": "tomato",
+    "phonetic": "[tʰə̥ˈmɐːtʰɐʉ]",
+    "phonetics": [
+      {
+        "text": "[tʰə̥ˈmɐːtʰɐʉ]",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tomato-au.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=1505555"
+      },
+      {
+        "text": "[tʰə̥ˈmeɪɾoʊ]",
+        "audio": ""
+      },
+      {
+        "text": "[tʰə̥ˈmɑːtʰəʊ]",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tomato-uk.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=873382"
+      },
+      {
+        "text": "[tʰə̥ˈmeɪɾoʊ]",
+        "audio": "https://api.dictionaryapi.dev/media/pronunciations/en/tomato-us.mp3",
+        "sourceUrl": "https://commons.wikimedia.org/w/index.php?curid=873531",
+        "license": {
+          "name": "BY-SA 3.0",
+          "url": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      }
+    ],
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": [
+          {
+            "definition": "A widely cultivated plant, Solanum lycopersicum, having edible fruit."
+          },
+          {
+            "definition": "The savory fruit of this plant, red when ripe, treated as a vegetable in horticulture and cooking.",
+            "synonyms": [
+              "love apple",
+              "wolf's peach"
+            ]
+          },
+          {
+            "definition": "A shade of red, the colour of a ripe tomato."
+          },
+          {
+            "definition": "A desirable-looking woman.",
+            "example": "Lookit the legs on that hot tomato!"
+          },
+          {
+            "definition": "A stupid act or person."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "verb",
+        "definitions": [
+          {
+            "definition": "To pelt with tomatoes"
+          },
+          {
+            "definition": "To add tomatoes to (a dish)"
+          }
+        ]
+      }
+    ],
+    "license": {
+      "name": "CC BY-SA 3.0",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    "sourceUrls": [
+      "https://en.wiktionary.org/wiki/tomato"
+    ]
+  }
+]
