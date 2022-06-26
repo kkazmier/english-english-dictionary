@@ -9,5 +9,5 @@ import java.util.List;
 @Setter
 public class Definition {
     private String partOfSpeech;
-    private List<String> definitions;
+    private String definition;
 }
