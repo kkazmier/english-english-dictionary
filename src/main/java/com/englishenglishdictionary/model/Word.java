@@ -12,7 +12,7 @@ public class Word {
     private String phonetic;
     private String audioUrl;
     private List<String> synonyms;
-    private List<Definition> definitions;
+    private List<Definition> wordnikDictionaryDefinitions;
     private List<String> examples;
 
     @Override
@@ -21,7 +21,7 @@ public class Word {
                 "phonetic='" + phonetic + '\'' +
                 ", audioUrl='" + audioUrl + '\'' +
                 ", synonyms=" + synonyms +
-                ", definitions=" + definitions +
+                ", definitions=" + wordnikDictionaryDefinitions +
                 ", examples=" + examples +
                 '}';
     }
