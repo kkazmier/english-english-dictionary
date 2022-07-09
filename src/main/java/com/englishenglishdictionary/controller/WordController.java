@@ -20,21 +20,4 @@ public class WordController {
         this.dictionaryClient = dictionaryClient;
         this.wordnikDictionaryClient = wordnikDictionaryClient;
     }
-
-//    @GetMapping
-//    Word getWordFromFreeDictionary(String word) {
-//        Word result = new Word();
-//
-//        return result;
-//    }
-
-    @GetMapping("{word}")
-    String getWordFromFreeDictionaryString(@PathVariable("word") String word) throws JsonProcessingException {
-        return dictionaryClient.getWordFromFreeDictionary(word);
-    }
-
-    @GetMapping("wordnikDictionary/{word}")
-    String getWordDefinitions(@PathVariable("word") String word) throws JsonProcessingException {
-        return wordnikDictionaryClient.getDefinitions(word).toString();
-    }
 }
