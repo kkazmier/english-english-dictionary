@@ -24,6 +24,7 @@
                             <form th:action="@{/wordnikDictionary/definitions}" method="post" th:object="${word}">
                                 <input type="text" th:value="słowo" th:field="*{word}">
                                 <button type="submit">Search</button>
+                                <button type="reset">Wyczyść pola</button>
                             </form>
                         </div>
                     </div>
