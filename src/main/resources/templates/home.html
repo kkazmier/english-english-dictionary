@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 <div class="container py-5">
@@ -18,13 +20,18 @@
                     <span class="anchor" id="wordnik2"></span>
                     <div class="card card-outline-secondary">
                         <div class="card-header">
-                            <h3 class="mb-0">Wordnik Dictionary</h3>
+                            <h3 class="mb-6">Wordnik Dictionary</h3>
                         </div>
                         <div class="card-body">
                             <form th:action="@{/wordnikDictionary/definitions}" method="post" th:object="${word}">
-                                <input type="text" th:value="słowo" th:field="*{word}">
-                                <button type="submit">Search</button>
-                                <button type="reset">Wyczyść pola</button>
+                                <div class="input-group">
+                                    <input id="word-input" placeholder="Słowo nie może zawierać dużych liter ani spacji"
+                                           type="text" class="form-control" th:value="słowo" th:field="*{word}">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="submit">Szukaj</button>
+                                        <button class="btn btn-secondary" type="reset">Wyczyść</button>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>
